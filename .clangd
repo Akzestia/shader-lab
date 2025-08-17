@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - -std=c++20
+    - "--include-directory=/usr/include/qt6"
+    - "--include-directory=/usr/include/qt6/QtCore"
+    - "--include-directory=/usr/include/qt6/QtGui"
+    - "--include-directory=/usr/include/qt6/QtWidgets"
+    - "--include-directory=/usr/include/qt6/QtQml"
+    - "--include-directory=/usr/include/qt6/QtQuick"
+    - "--include-directory=/usr/include/qt6/QtUiPlugin"
+    - "--include-directory=/usr/include/qt6/QtMultimedia"
+    - "--include-directory=${workspaceFolder}"
+    - "--include-directory=${workspaceFolder}/**"
